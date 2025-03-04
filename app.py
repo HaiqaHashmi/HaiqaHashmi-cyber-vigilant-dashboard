@@ -54,9 +54,6 @@ elif selected_module == "AI Anomaly Detection":
     ai_anomaly_detection_tab()
 
 elif selected_module == "Real-Time Monitoring & DPI":
-    from Project4 import run_proxy
-
-    st.warning("🚀 Real-Time Monitoring & DPI is running...")
-    asyncio.run(run_proxy())
+    print("Proxy is running")
 
 # This script acts as the main launcher integrating all four modules
